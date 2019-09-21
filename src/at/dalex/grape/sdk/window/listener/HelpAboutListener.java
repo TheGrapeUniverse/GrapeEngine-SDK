@@ -10,10 +10,12 @@ public class HelpAboutListener implements EventHandler<ActionEvent> {
     @Override
     public void handle(ActionEvent event) {
         DialogHelper.showInformationDialog("About", "GrapeEngine Software Development Kit (Version " + Main.VERSION + ")",
-                                                    "Main developer: David Kraus\n\n" +
+                                                    "Main developer: David Kraus\n" +
+                                                    "\n" +
                                                     "Additional developers:\n" +
-                                                    "Samuel Kowatschek\n" +
+                                                    "Jan Fischlmayr\n" +
                                                     "Patrick Huemer\n" +
+                                                    "Samuel Kowatschek\n" +  
                                                     "\n" +
                                                     "© 2019 David Kraus. All rights reserved.");
     }
